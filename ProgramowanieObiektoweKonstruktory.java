@@ -10,6 +10,7 @@ public class ProgramowanieObiektowe {
                 
 
         Punkt p = new Punkt(10, 155);
+        
         Punkt p2 = new Punkt(10, 45);
         
         System.out.println("p.x " + p.x);
@@ -28,12 +29,12 @@ class Punkt
     {
         System.out.println("Wywołano konstruktor domyślny");
     }
-    Punkt(int pierwszy, int drugi)
+    Punkt(int x, int y)
     {
         System.out.println("Wywołano konstruktor z dwoma parametrami");
         
-        x = pierwszy;
-        y = drugi;
+        this.x = x;
+        this.y = y;
     }
     int x;
     int y;
