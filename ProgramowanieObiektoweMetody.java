@@ -18,7 +18,7 @@ public class ProgramowanieObiektowe {
         a2.wypiszGodnosc("Agnieszka", "Sagan");
         
         
-        double wynik = a.dzielenie(5, 0);
+        double wynik = a.dodaj(4.15, 24.165);
         
         System.out.println(wynik);
                 
@@ -40,7 +40,12 @@ class Test
         
         return a + b;
     }
-    
+    double dodaj(double a, double b)
+    {
+        
+        return a + b;
+    }
+        
     double dzielenie(double a, double b)
     {
         if (b == 0)
