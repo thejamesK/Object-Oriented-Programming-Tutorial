@@ -16,6 +16,7 @@ public class Skeleton extends Monster
     {
         super.attack();
         /*
+        
         Additional attacks
         */
         System.out.println("This is attack metod from Skeleton class");
@@ -26,6 +27,7 @@ public class Skeleton extends Monster
     {
         System.out.println("Default constructor from Skeleton class");
     }
+    
     
         public Skeleton(double walkingSpeed, double hitPoints)
     {
@@ -38,5 +40,11 @@ public class Skeleton extends Monster
         super(walkingSpeed, hitPoints);
         this.Weapon = Weapon;
         System.out.println("Not default constructor from Skeleton class");
+    }
+
+    @Override
+    protected void description() 
+    {
+        
     }
 }

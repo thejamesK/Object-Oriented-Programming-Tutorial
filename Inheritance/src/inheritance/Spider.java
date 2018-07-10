@@ -3,23 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inheritance.potwory;
-
+package inheritance;
+import inheritance.potwory.Monster;
 /**
  *
  * @author Shabbadoo
  */
-public class Zombie extends Monster
+public class Spider extends Monster
 {
-    
-    public Zombie()
+    void foo()
     {
-        System.out.println("Default constructor from Zombie class");
+        
     }
-    
-        @Override
+
+    @Override
     protected void description() 
     {
         
     }
+    
+    
 }

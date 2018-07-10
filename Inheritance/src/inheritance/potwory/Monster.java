@@ -9,10 +9,10 @@ package inheritance.potwory;
  *
  * @author Shabbadoo
  */
-public class Monster {
+public abstract class Monster {
     
-    public double walkingSpeed;
-    public double hitPoints;
+    protected double walkingSpeed;
+    protected double hitPoints;
     
     public void attack()
     {
@@ -22,6 +22,8 @@ public class Monster {
      
         System.out.println("This is attack metod from Monster class");
     }
+    abstract protected void description();
+
     
     public Monster()
     {

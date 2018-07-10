@@ -15,10 +15,9 @@ public class Inheritance {
     public static void main(String[] args) 
     {
         
-        Monster m = new Skeleton(10, 100);
-        Monster m2 = new Zombie();
+        Monster m = new Skeleton();
         
-        m.attack();
+        
                        
     }
     
